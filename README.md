@@ -5,6 +5,7 @@
 [![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue.svg)](https://github.com/PowerShell/PowerShell)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Release](https://img.shields.io/github/v/release/maddguru/cli-debrid-monitor)](https://github.com/maddguru/cli-debrid-monitor/releases)
 
 ## ✨ Features
 
@@ -70,7 +71,7 @@
    - ✅ Run whether user is logged on or not
    - ❌ Start only if on AC power
 
-See [SETUP_GUIDE.md](docs/SETUP_GUIDE.md) for detailed instructions.
+See [SETUP_GUIDE.md](main/SETUP_GUIDE.md) for detailed instructions.
 
 ## 📋 Configuration
 
