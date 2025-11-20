@@ -221,7 +221,15 @@ Unblock-File -Path ".\cli_debrid_monitor_enhanced.ps1"
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+### Script Output Shows Emoji Errors
+If you see errors similar to below. 
++     C:\YOUR FILE LOCATION\cli_debrid\cli_debrid_monitor_enhanced.ps1:194 char:34
+      elseif ($Message -match "^ðŸ“Š|^ðŸ’¾") { $color = "Magenta" }
+Those ðŸ… characters are what you get when UTF-8 emojis were saved/decoded as ANSI/Windows-1252.
 
+- Make sure you are on a proper Powershell version of 7.5 or later
+- Open script in Notepad++, VS Code or similar and confirm Encoding is set to BOM or BOM-8, if not change and save
+  
 ### Discord Notifications Not Working
 
 **Test the webhook first:**
