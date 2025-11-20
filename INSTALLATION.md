@@ -154,10 +154,8 @@ This is **normal**! cli_debrid runs 3 processes by design. See `docs/CLI_DEBRID_
 
 ## 📚 Next Steps
 
-1. ✅ Read [SETUP_GUIDE.md](docs/SETUP_GUIDE.md) for detailed setup
-2. ✅ Review [ENHANCED_FEATURES_GUIDE.md](docs/ENHANCED_FEATURES_GUIDE.md) for all features
-3. ✅ Check [FAST_CHECK_MODE_GUIDE.md](docs/FAST_CHECK_MODE_GUIDE.md) for fast recovery details
-4. ✅ Set up Task Scheduler for 24/7 monitoring
+1. ✅ Read [SETUP_GUIDE.md](/SETUP_GUIDE.md) for detailed setup
+2. ✅ Set up Task Scheduler for 24/7 monitoring
 
 ## 🎉 Done!
 
