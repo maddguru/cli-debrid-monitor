@@ -8,9 +8,9 @@ Download the latest release from: [Releases](../../releases)
 
 ## 📂 Installation
 
-### Step 1: Extract Files
+### Step 1: Save File
 
-Extract the ZIP file to your cli_debrid directory:
+Save the latest release to your cli_debrid directory:
 ```
 C:\YOUR FILE LOCATION\cli_debrid\
 ```
@@ -138,6 +138,15 @@ Run the monitor and watch for:
 # Unblock the file
 Unblock-File -Path ".\cli_debrid_monitor_enhanced.ps1"
 ```
+### Script Output Shows Emoji Errors
+If you see errors similar to below. 
++     C:\YOUR FILE LOCATION\cli_debrid\cli_debrid_monitor_enhanced.ps1:194 char:34
+      elseif ($Message -match "^ðŸ“Š|^ðŸ’¾") { $color = "Magenta" }
+Those ðŸ… characters are what you get when UTF-8 emojis were saved/decoded as ANSI/Windows-1252.
+
+- Make sure you are on a proper Powershell version of 7.5 or later
+- Open script in Notepad++, VS Code or similar and confirm Encoding is set to BOM or BOM-8, if not change and save
+
 
 ### Discord not working
 - Verify webhook URL is correct
@@ -150,7 +159,7 @@ Unblock-File -Path ".\cli_debrid_monitor_enhanced.ps1"
 - Try accessing the URL in a browser
 
 ### Multiple process warning
-This is **normal**! cli_debrid runs 3 processes by design. See `docs/CLI_DEBRID_MULTIPLE_PROCESSES_EXPLAINED.md`
+This is **normal**! cli_debrid runs 3 processes by design.
 
 ## 📚 Next Steps
 
