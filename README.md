@@ -71,7 +71,7 @@
    - ✅ Run whether user is logged on or not
    - ❌ Start only if on AC power
 
-See [SETUP_GUIDE.md](main/SETUP_GUIDE.md) for detailed instructions.
+See [SETUP_GUIDE.md](/SETUP_GUIDE.md) for detailed instructions.
 
 ## 📋 Configuration
 
@@ -293,7 +293,7 @@ This project will be free for the community to use.
 
 ## 📞 Support
 
-- **Setup Issues:** Review [SETUP_GUIDE.md](docs/SETUP_GUIDE.md)
+- **Setup Issues:** Review [SETUP_GUIDE.md](/SETUP_GUIDE.md)
 - **Issues:** Open an issue on GitHub
 
 ## 🎉 Features at a Glance
