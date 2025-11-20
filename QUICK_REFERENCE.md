@@ -255,6 +255,7 @@ When asking for help, provide:
 - [ ] Recent diagnostic file
 - [ ] Your configuration settings
 - [ ] Windows version
+- [ ] Powershell version
 - [ ] cli_debrid version
 - [ ] Description of the problem
 - [ ] When problem started
