@@ -30,7 +30,7 @@
 ### Prerequisites
 
 - Windows 10/11
-- PowerShell 5.1 or later
+- PowerShell 7.0 or later (emojis and extended Unicode characters work reliably and natively)
 - [cli_debrid](https://github.com/godver3/cli_debrid) installed
 - Discord webhook URL 
 
